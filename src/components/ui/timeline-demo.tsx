@@ -1,6 +1,6 @@
 import React from "react";
 import { Timeline } from "../ui/timeline";
-import { SiPython, SiCplusplus, SiPytorch, SiHtml5, SiCss3, SiJavascript, SiTypescript, SiFlutter, SiMongodb, SiRust, SiFirebase, SiArchlinux, SiCsharp, SiGnubash} from "react-icons/si";
+import { SiPython, SiCplusplus, SiPytorch, SiHtml5, SiCss3, SiJavascript, SiTypescript, SiFlutter, SiMongodb, SiRust, SiFirebase, SiArchlinux, SiCsharp, SiGnubash, SiReact, SiUnity, SiGodotengine} from "react-icons/si";
 
 interface TimelineDemoProps {
   id?: string;
@@ -62,7 +62,16 @@ export function TimelineDemo({ id }: TimelineDemoProps) {
               <SiMongodb size={60} color="#47A248" /> {/* MongoDB icon in green */}
             </div>
             <div className="flex justify-center items-center">
+              <SiReact size={60} color="#3688c7" /> {/* MongoDB icon in green */}
+            </div>
+            <div className="flex justify-center items-center">
+              <SiUnity size={60} color="#ffffff" /> {/* MongoDB icon in green */}
+            </div>
+            <div className="flex justify-center items-center">
               <SiCsharp size={60} color="#00599C" /> {/* MongoDB icon in green */}
+            </div>
+            <div className="flex justify-center items-center">
+              <SiGodotengine size={60} color="#1572B6" /> {/* MongoDB icon in green */}
             </div>
           </div>
         </div>
