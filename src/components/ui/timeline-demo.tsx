@@ -1,6 +1,6 @@
 import React from "react";
 import { Timeline } from "../ui/timeline";
-import { SiPython, SiCplusplus, SiPytorch, SiHtml5, SiCss3, SiJavascript, SiTypescript, SiFlutter, SiMongodb, SiRust, SiFirebase, SiArchlinux, SiCsharp, SiGnubash, SiReact, SiUnity, SiGodotengine} from "react-icons/si";
+import { SiPython, SiCplusplus, SiPytorch, SiHtml5, SiCss3, SiJavascript, SiTypescript, SiFlutter, SiMongodb, SiRust, SiFirebase, SiArchlinux, SiCsharp, SiGnubash, SiReact, SiUnity, SiGodotengine, SiNextdotjs, SiLinux} from "react-icons/si";
 
 interface TimelineDemoProps {
   id?: string;
@@ -26,8 +26,8 @@ export function TimelineDemo({ id }: TimelineDemoProps) {
               <SiPytorch size={60} color="#EE4C2C" /> {/* PyTorch icon in red */}
             </div>
             <div className="flex justify-center items-center">
-              <SiArchlinux size={60} color="#1793d1" /> {/* PyTorch icon in red */}
-            </div>
+              <SiLinux size={60} color="#FFCA28" /> {/* Firebase icon in yellow */}
+            </div> 
             <div className="flex justify-center items-center">
               <SiGnubash size={60} color="#85bb65" /> {/* PyTorch icon in red */}
             </div>
@@ -53,9 +53,6 @@ export function TimelineDemo({ id }: TimelineDemoProps) {
               <SiJavascript size={60} color="#F7DF1E" /> {/* JavaScript icon in yellow */}
             </div>
             <div className="flex justify-center items-center">
-              <SiTypescript size={60} color="#3178C6" /> {/* TypeScript icon in blue */}
-            </div>
-            <div className="flex justify-center items-center">
               <SiFlutter size={60} color="#02569B" /> {/* Flutter icon in blue */}
             </div>
             <div className="flex justify-center items-center">
@@ -65,13 +62,13 @@ export function TimelineDemo({ id }: TimelineDemoProps) {
               <SiReact size={60} color="#3688c7" /> {/* MongoDB icon in green */}
             </div>
             <div className="flex justify-center items-center">
-              <SiUnity size={60} color="#ffffff" /> {/* MongoDB icon in green */}
+              <SiRust size={60} color="#DEA584" /> {/* Rust icon in brown */}
             </div>
             <div className="flex justify-center items-center">
-              <SiCsharp size={60} color="#00599C" /> {/* MongoDB icon in green */}
-            </div>
+              <SiFirebase size={60} color="#FFCA28" /> {/* Firebase icon in yellow */}
+            </div>  
             <div className="flex justify-center items-center">
-              <SiGodotengine size={60} color="#1572B6" /> {/* MongoDB icon in green */}
+              <SiArchlinux size={60} color="#1793d1" /> {/* PyTorch icon in red */}
             </div>
           </div>
         </div>
@@ -86,10 +83,19 @@ export function TimelineDemo({ id }: TimelineDemoProps) {
           </p>
           <div className="grid grid-cols-10 gap-2">
             <div className="flex justify-center items-center">
-              <SiRust size={60} color="#DEA584" /> {/* Rust icon in brown */}
+              <SiUnity size={60} color="#ffffff" /> {/* MongoDB icon in green */}
             </div>
             <div className="flex justify-center items-center">
-              <SiFirebase size={60} color="#FFCA28" /> {/* Firebase icon in yellow */}
+              <SiCsharp size={60} color="#00599C" /> {/* MongoDB icon in green */}
+            </div>
+            <div className="flex justify-center items-center">
+              <SiGodotengine size={60} color="#1572B6" />             
+            </div>
+            <div className="flex justify-center items-center">
+              <SiNextdotjs size={60} color="#ffffff" />             
+            </div>
+            <div className="flex justify-center items-center">
+              <SiTypescript size={60} color="#3178C6" /> {/* TypeScript icon in blue */}
             </div>
           </div>
         </div>
