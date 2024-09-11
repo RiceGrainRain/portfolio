@@ -13,7 +13,7 @@ export function TimelineDemo({ id }: TimelineDemoProps) {
       content: (
         <div>
           <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Manas and Will’s journey began in an unexpected place—TAMS, a prestigious private high school six hours away from their homes...
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt faucibus felis, et fermentum nunc iaculis eget. Curabitur sit amet ligula quis lorem vestibulum tincidunt. Donec lacinia, libero at feugiat ultricies, sapien dui facilisis nulla, id sagittis lacus augue vel arcu. Integer sit amet odio in ipsum tempor viverra. Praesent eget odio sit amet dolor aliquam dapibus. In varius urna sed libero sollicitudin malesuada. Quisque lobortis quam a nulla aliquet, vitae fermentum ligula elementum. Donec aliquet, sapien at cursus finibus, tortor orci tincidunt velit, a ultricies magna risus at risus. Vestibulum imperdiet sagittis ante, ut dictum lacus tempor a. Phasellus feugiat volutpat gravida. Integer sit amet neque non velit scelerisque rhoncus nec ut felis. Pellentesque mollis laoreet odio, sit amet accumsan ante dictum in. Integer viverra magna sit amet nisl consectetur feugiat. Mauris aliquam ex nisi, vitae fermentum ante tincidunt sed.
           </p>
           <div className="grid grid-cols-10 gap-2">
             <div className="flex justify-center items-center">
@@ -40,7 +40,7 @@ export function TimelineDemo({ id }: TimelineDemoProps) {
       content: (
         <div>
           <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            As high school progressed, Manas and Will’s friendship evolved into something much more significant...
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt faucibus felis, et fermentum nunc iaculis eget. Curabitur sit amet ligula quis lorem vestibulum tincidunt. Donec lacinia, libero at feugiat ultricies, sapien dui facilisis nulla, id sagittis lacus augue vel arcu. Integer sit amet odio in ipsum tempor viverra. Praesent eget odio sit amet dolor aliquam dapibus. In varius urna sed libero sollicitudin malesuada. Quisque lobortis quam a nulla aliquet, vitae fermentum ligula elementum. Donec aliquet, sapien at cursus finibus, tortor orci tincidunt velit, a ultricies magna risus at risus. Vestibulum imperdiet sagittis ante, ut dictum lacus tempor a. Phasellus feugiat volutpat gravida. Integer sit amet neque non velit scelerisque rhoncus nec ut felis. Pellentesque mollis laoreet odio, sit amet accumsan ante dictum in. Integer viverra magna sit amet nisl consectetur feugiat. Mauris aliquam ex nisi, vitae fermentum ante tincidunt sed.
           </p>
           <div className="grid grid-cols-10 gap-2">
             <div className="flex justify-center items-center">
@@ -79,7 +79,7 @@ export function TimelineDemo({ id }: TimelineDemoProps) {
       content: (
         <div>
           <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Despite the physical distance that college introduced—Manas and Will enrolled in different institutions...
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt faucibus felis, et fermentum nunc iaculis eget. Curabitur sit amet ligula quis lorem vestibulum tincidunt. Donec lacinia, libero at feugiat ultricies, sapien dui facilisis nulla, id sagittis lacus augue vel arcu. Integer sit amet odio in ipsum tempor viverra. Praesent eget odio sit amet dolor aliquam dapibus. In varius urna sed libero sollicitudin malesuada. Quisque lobortis quam a nulla aliquet, vitae fermentum ligula elementum. Donec aliquet, sapien at cursus finibus, tortor orci tincidunt velit, a ultricies magna risus at risus. Vestibulum imperdiet sagittis ante, ut dictum lacus tempor a. Phasellus feugiat volutpat gravida. Integer sit amet neque non velit scelerisque rhoncus nec ut felis. Pellentesque mollis laoreet odio, sit amet accumsan ante dictum in. Integer viverra magna sit amet nisl consectetur feugiat. Mauris aliquam ex nisi, vitae fermentum ante tincidunt sed.
           </p>
           <div className="grid grid-cols-10 gap-2">
             <div className="flex justify-center items-center">

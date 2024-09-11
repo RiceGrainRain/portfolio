@@ -17,31 +17,20 @@ export function AppleCardsCarouselDemo() {
   );
 }
 
-const DummyContent = () => {
+const Ubisoft = () => {
   return (
     <>
       {[...new Array(3).fill(1)].map((_, index) => {
         return (
           <div
-            key={"dummy-content" + index}
-            className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
+            key={"ubisoft" + index}
+            className="p-8 md:p-14 rounded-3xl mb-4"
           >
             <p className="text-white text-base md:text-2xl font-sans max-w-3xl mx-auto">
-              <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                The first rule of Apple club is that you boast about Apple club.
-              </span>{" "}
-              Keep a journal, quickly jot down a grocery list, and take amazing
-              class notes. Want to convert those notes to text? No problem.
-              Langotiya jeetu ka mara hua yaar is ready to capture every
-              thought.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt faucibus felis, et fermentum nunc iaculis eget. Curabitur sit amet ligula quis lorem vestibulum tincidunt. Donec lacinia, libero at feugiat ultricies, sapien dui facilisis nulla, id sagittis lacus augue vel arcu. Integer sit amet odio in ipsum tempor viverra. Praesent eget odio sit amet dolor aliquam dapibus. In varius urna sed libero sollicitudin malesuada. Quisque lobortis quam a nulla aliquet, vitae fermentum ligula elementum. Donec aliquet, sapien at cursus finibus, tortor orci tincidunt velit, a ultricies magna risus at risus. Vestibulum imperdiet sagittis ante, ut dictum lacus tempor a. Phasellus feugiat volutpat gravida. Integer sit amet neque non velit scelerisque rhoncus nec ut felis. Pellentesque mollis laoreet odio, sit amet accumsan ante dictum in. Integer viverra magna sit amet nisl consectetur feugiat. Mauris aliquam ex nisi, vitae fermentum ante tincidunt sed.
+
+Vivamus convallis risus nec magna efficitur, sit amet lobortis ipsum luctus. Nam in risus non turpis tincidunt vehicula. Nunc ullamcorper massa in augue efficitur lacinia. Aliquam ut tincidunt elit. Donec euismod posuere urna, eget hendrerit erat dapibus ac. Nam sollicitudin, odio ut varius pellentesque, nulla erat sollicitudin libero, ut rhoncus ante libero sit amet ex. Duis id dapibus magna. Duis quis velit pharetra, hendrerit orci non, hendrerit tortor. Etiam tempor ligula ligula, in vulputate enim sollicitudin eget. Sed ultricies libero a quam egestas, quis pellentesque neque eleifend. Nullam a odio felis. Fusce ornare, lectus at ultricies posuere, erat velit finibus elit, in viverra mi sapien at purus. Maecenas suscipit sem turpis, quis pharetra ex venenatis eu. Donec at malesuada tortor, non dapibus ligula. In vestibulum justo ac suscipit posuere. Nulla ac posuere turpis, at lacinia lectus.
             </p>
-            <img
-              src="https://assets.aceternity.com/macbook.png"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
-            />
           </div>
         );
       })}
@@ -49,49 +38,176 @@ const DummyContent = () => {
   );
 };
 
+const McDermott = () => {
+  return (
+    <>
+      {[...new Array(3).fill(1)].map((_, index) => {
+        return (
+          <div
+          key={"ubisoft" + index}
+          className="p-8 md:p-14 rounded-3xl mb-4"
+        >
+          <p className="text-white text-base md:text-2xl font-sans max-w-3xl mx-auto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt faucibus felis, et fermentum nunc iaculis eget. Curabitur sit amet ligula quis lorem vestibulum tincidunt. Donec lacinia, libero at feugiat ultricies, sapien dui facilisis nulla, id sagittis lacus augue vel arcu. Integer sit amet odio in ipsum tempor viverra. Praesent eget odio sit amet dolor aliquam dapibus. In varius urna sed libero sollicitudin malesuada. Quisque lobortis quam a nulla aliquet, vitae fermentum ligula elementum. Donec aliquet, sapien at cursus finibus, tortor orci tincidunt velit, a ultricies magna risus at risus. Vestibulum imperdiet sagittis ante, ut dictum lacus tempor a. Phasellus feugiat volutpat gravida. Integer sit amet neque non velit scelerisque rhoncus nec ut felis. Pellentesque mollis laoreet odio, sit amet accumsan ante dictum in. Integer viverra magna sit amet nisl consectetur feugiat. Mauris aliquam ex nisi, vitae fermentum ante tincidunt sed.
+
+Vivamus convallis risus nec magna efficitur, sit amet lobortis ipsum luctus. Nam in risus non turpis tincidunt vehicula. Nunc ullamcorper massa in augue efficitur lacinia. Aliquam ut tincidunt elit. Donec euismod posuere urna, eget hendrerit erat dapibus ac. Nam sollicitudin, odio ut varius pellentesque, nulla erat sollicitudin libero, ut rhoncus ante libero sit amet ex. Duis id dapibus magna. Duis quis velit pharetra, hendrerit orci non, hendrerit tortor. Etiam tempor ligula ligula, in vulputate enim sollicitudin eget. Sed ultricies libero a quam egestas, quis pellentesque neque eleifend. Nullam a odio felis. Fusce ornare, lectus at ultricies posuere, erat velit finibus elit, in viverra mi sapien at purus. Maecenas suscipit sem turpis, quis pharetra ex venenatis eu. Donec at malesuada tortor, non dapibus ligula. In vestibulum justo ac suscipit posuere. Nulla ac posuere turpis, at lacinia lectus.
+          </p>
+        </div>
+        );
+      })}
+    </>
+  );
+};
+
+const VEGS = () => {
+  return (
+    <>
+      {[...new Array(3).fill(1)].map((_, index) => {
+        return (
+          <div
+          key={"ubisoft" + index}
+          className="p-8 md:p-14 rounded-3xl mb-4"
+        >
+          <p className="text-white text-base md:text-2xl font-sans max-w-3xl mx-auto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt faucibus felis, et fermentum nunc iaculis eget. Curabitur sit amet ligula quis lorem vestibulum tincidunt. Donec lacinia, libero at feugiat ultricies, sapien dui facilisis nulla, id sagittis lacus augue vel arcu. Integer sit amet odio in ipsum tempor viverra. Praesent eget odio sit amet dolor aliquam dapibus. In varius urna sed libero sollicitudin malesuada. Quisque lobortis quam a nulla aliquet, vitae fermentum ligula elementum. Donec aliquet, sapien at cursus finibus, tortor orci tincidunt velit, a ultricies magna risus at risus. Vestibulum imperdiet sagittis ante, ut dictum lacus tempor a. Phasellus feugiat volutpat gravida. Integer sit amet neque non velit scelerisque rhoncus nec ut felis. Pellentesque mollis laoreet odio, sit amet accumsan ante dictum in. Integer viverra magna sit amet nisl consectetur feugiat. Mauris aliquam ex nisi, vitae fermentum ante tincidunt sed.
+
+Vivamus convallis risus nec magna efficitur, sit amet lobortis ipsum luctus. Nam in risus non turpis tincidunt vehicula. Nunc ullamcorper massa in augue efficitur lacinia. Aliquam ut tincidunt elit. Donec euismod posuere urna, eget hendrerit erat dapibus ac. Nam sollicitudin, odio ut varius pellentesque, nulla erat sollicitudin libero, ut rhoncus ante libero sit amet ex. Duis id dapibus magna. Duis quis velit pharetra, hendrerit orci non, hendrerit tortor. Etiam tempor ligula ligula, in vulputate enim sollicitudin eget. Sed ultricies libero a quam egestas, quis pellentesque neque eleifend. Nullam a odio felis. Fusce ornare, lectus at ultricies posuere, erat velit finibus elit, in viverra mi sapien at purus. Maecenas suscipit sem turpis, quis pharetra ex venenatis eu. Donec at malesuada tortor, non dapibus ligula. In vestibulum justo ac suscipit posuere. Nulla ac posuere turpis, at lacinia lectus.
+          </p>
+        </div>
+        );
+      })}
+    </>
+  );
+};
+
+const Namuduri = () => {
+  return (
+    <>
+      {[...new Array(3).fill(1)].map((_, index) => {
+        return (
+          <div
+            key={"ubisoft" + index}
+            className="p-8 md:p-14 rounded-3xl mb-4"
+          >
+            <p className="text-white text-base md:text-2xl font-sans max-w-3xl mx-auto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt faucibus felis, et fermentum nunc iaculis eget. Curabitur sit amet ligula quis lorem vestibulum tincidunt. Donec lacinia, libero at feugiat ultricies, sapien dui facilisis nulla, id sagittis lacus augue vel arcu. Integer sit amet odio in ipsum tempor viverra. Praesent eget odio sit amet dolor aliquam dapibus. In varius urna sed libero sollicitudin malesuada. Quisque lobortis quam a nulla aliquet, vitae fermentum ligula elementum. Donec aliquet, sapien at cursus finibus, tortor orci tincidunt velit, a ultricies magna risus at risus. Vestibulum imperdiet sagittis ante, ut dictum lacus tempor a. Phasellus feugiat volutpat gravida. Integer sit amet neque non velit scelerisque rhoncus nec ut felis. Pellentesque mollis laoreet odio, sit amet accumsan ante dictum in. Integer viverra magna sit amet nisl consectetur feugiat. Mauris aliquam ex nisi, vitae fermentum ante tincidunt sed.
+
+Vivamus convallis risus nec magna efficitur, sit amet lobortis ipsum luctus. Nam in risus non turpis tincidunt vehicula. Nunc ullamcorper massa in augue efficitur lacinia. Aliquam ut tincidunt elit. Donec euismod posuere urna, eget hendrerit erat dapibus ac. Nam sollicitudin, odio ut varius pellentesque, nulla erat sollicitudin libero, ut rhoncus ante libero sit amet ex. Duis id dapibus magna. Duis quis velit pharetra, hendrerit orci non, hendrerit tortor. Etiam tempor ligula ligula, in vulputate enim sollicitudin eget. Sed ultricies libero a quam egestas, quis pellentesque neque eleifend. Nullam a odio felis. Fusce ornare, lectus at ultricies posuere, erat velit finibus elit, in viverra mi sapien at purus. Maecenas suscipit sem turpis, quis pharetra ex venenatis eu. Donec at malesuada tortor, non dapibus ligula. In vestibulum justo ac suscipit posuere. Nulla ac posuere turpis, at lacinia lectus.
+            </p>
+          </div>
+        );
+      })}
+    </>
+  );
+};
+
+const Vpost = () => {
+  return (
+    <>
+      {[...new Array(3).fill(1)].map((_, index) => {
+        return (
+          <div
+          key={"ubisoft" + index}
+          className="p-8 md:p-14 rounded-3xl mb-4"
+        >
+          <p className="text-white text-base md:text-2xl font-sans max-w-3xl mx-auto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt faucibus felis, et fermentum nunc iaculis eget. Curabitur sit amet ligula quis lorem vestibulum tincidunt. Donec lacinia, libero at feugiat ultricies, sapien dui facilisis nulla, id sagittis lacus augue vel arcu. Integer sit amet odio in ipsum tempor viverra. Praesent eget odio sit amet dolor aliquam dapibus. In varius urna sed libero sollicitudin malesuada. Quisque lobortis quam a nulla aliquet, vitae fermentum ligula elementum. Donec aliquet, sapien at cursus finibus, tortor orci tincidunt velit, a ultricies magna risus at risus. Vestibulum imperdiet sagittis ante, ut dictum lacus tempor a. Phasellus feugiat volutpat gravida. Integer sit amet neque non velit scelerisque rhoncus nec ut felis. Pellentesque mollis laoreet odio, sit amet accumsan ante dictum in. Integer viverra magna sit amet nisl consectetur feugiat. Mauris aliquam ex nisi, vitae fermentum ante tincidunt sed.
+
+Vivamus convallis risus nec magna efficitur, sit amet lobortis ipsum luctus. Nam in risus non turpis tincidunt vehicula. Nunc ullamcorper massa in augue efficitur lacinia. Aliquam ut tincidunt elit. Donec euismod posuere urna, eget hendrerit erat dapibus ac. Nam sollicitudin, odio ut varius pellentesque, nulla erat sollicitudin libero, ut rhoncus ante libero sit amet ex. Duis id dapibus magna. Duis quis velit pharetra, hendrerit orci non, hendrerit tortor. Etiam tempor ligula ligula, in vulputate enim sollicitudin eget. Sed ultricies libero a quam egestas, quis pellentesque neque eleifend. Nullam a odio felis. Fusce ornare, lectus at ultricies posuere, erat velit finibus elit, in viverra mi sapien at purus. Maecenas suscipit sem turpis, quis pharetra ex venenatis eu. Donec at malesuada tortor, non dapibus ligula. In vestibulum justo ac suscipit posuere. Nulla ac posuere turpis, at lacinia lectus.
+          </p>
+        </div>
+        );
+      })}
+    </>
+  );
+};
+
+const Travlr = () => {
+  return (
+    <>
+      {[...new Array(3).fill(1)].map((_, index) => {
+        return (
+          <div
+          key={"ubisoft" + index}
+          className="p-8 md:p-14 rounded-3xl mb-4"
+        >
+          <p className="text-white text-base md:text-2xl font-sans max-w-3xl mx-auto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt faucibus felis, et fermentum nunc iaculis eget. Curabitur sit amet ligula quis lorem vestibulum tincidunt. Donec lacinia, libero at feugiat ultricies, sapien dui facilisis nulla, id sagittis lacus augue vel arcu. Integer sit amet odio in ipsum tempor viverra. Praesent eget odio sit amet dolor aliquam dapibus. In varius urna sed libero sollicitudin malesuada. Quisque lobortis quam a nulla aliquet, vitae fermentum ligula elementum. Donec aliquet, sapien at cursus finibus, tortor orci tincidunt velit, a ultricies magna risus at risus. Vestibulum imperdiet sagittis ante, ut dictum lacus tempor a. Phasellus feugiat volutpat gravida. Integer sit amet neque non velit scelerisque rhoncus nec ut felis. Pellentesque mollis laoreet odio, sit amet accumsan ante dictum in. Integer viverra magna sit amet nisl consectetur feugiat. Mauris aliquam ex nisi, vitae fermentum ante tincidunt sed.
+
+Vivamus convallis risus nec magna efficitur, sit amet lobortis ipsum luctus. Nam in risus non turpis tincidunt vehicula. Nunc ullamcorper massa in augue efficitur lacinia. Aliquam ut tincidunt elit. Donec euismod posuere urna, eget hendrerit erat dapibus ac. Nam sollicitudin, odio ut varius pellentesque, nulla erat sollicitudin libero, ut rhoncus ante libero sit amet ex. Duis id dapibus magna. Duis quis velit pharetra, hendrerit orci non, hendrerit tortor. Etiam tempor ligula ligula, in vulputate enim sollicitudin eget. Sed ultricies libero a quam egestas, quis pellentesque neque eleifend. Nullam a odio felis. Fusce ornare, lectus at ultricies posuere, erat velit finibus elit, in viverra mi sapien at purus. Maecenas suscipit sem turpis, quis pharetra ex venenatis eu. Donec at malesuada tortor, non dapibus ligula. In vestibulum justo ac suscipit posuere. Nulla ac posuere turpis, at lacinia lectus.
+          </p>
+        </div>
+        );
+      })}
+    </>
+  );
+};
+
+const FlashNotes = () => {
+  return (
+    <>
+      {[...new Array(3).fill(1)].map((_, index) => {
+        return (
+          <div
+          key={"ubisoft" + index}
+          className="p-8 md:p-14 rounded-3xl mb-4"
+        >
+          <p className="text-white text-base md:text-2xl font-sans max-w-3xl mx-auto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt faucibus felis, et fermentum nunc iaculis eget. Curabitur sit amet ligula quis lorem vestibulum tincidunt. Donec lacinia, libero at feugiat ultricies, sapien dui facilisis nulla, id sagittis lacus augue vel arcu. Integer sit amet odio in ipsum tempor viverra. Praesent eget odio sit amet dolor aliquam dapibus. In varius urna sed libero sollicitudin malesuada. Quisque lobortis quam a nulla aliquet, vitae fermentum ligula elementum. Donec aliquet, sapien at cursus finibus, tortor orci tincidunt velit, a ultricies magna risus at risus. Vestibulum imperdiet sagittis ante, ut dictum lacus tempor a. Phasellus feugiat volutpat gravida. Integer sit amet neque non velit scelerisque rhoncus nec ut felis. Pellentesque mollis laoreet odio, sit amet accumsan ante dictum in. Integer viverra magna sit amet nisl consectetur feugiat. Mauris aliquam ex nisi, vitae fermentum ante tincidunt sed.
+
+Vivamus convallis risus nec magna efficitur, sit amet lobortis ipsum luctus. Nam in risus non turpis tincidunt vehicula. Nunc ullamcorper massa in augue efficitur lacinia. Aliquam ut tincidunt elit. Donec euismod posuere urna, eget hendrerit erat dapibus ac. Nam sollicitudin, odio ut varius pellentesque, nulla erat sollicitudin libero, ut rhoncus ante libero sit amet ex. Duis id dapibus magna. Duis quis velit pharetra, hendrerit orci non, hendrerit tortor. Etiam tempor ligula ligula, in vulputate enim sollicitudin eget. Sed ultricies libero a quam egestas, quis pellentesque neque eleifend. Nullam a odio felis. Fusce ornare, lectus at ultricies posuere, erat velit finibus elit, in viverra mi sapien at purus. Maecenas suscipit sem turpis, quis pharetra ex venenatis eu. Donec at malesuada tortor, non dapibus ligula. In vestibulum justo ac suscipit posuere. Nulla ac posuere turpis, at lacinia lectus.
+          </p>
+        </div>
+        );
+      })}
+    </>
+  );
+};
+
+
 const data = [
   {
     category: "Internships",
     title: "McDermott",
     src: "src/assets/mcdermott.png",
-    content: <DummyContent />,
+    content: <McDermott />,
   },
   {
     category: "Internships",
     title: "Ubisoft",
     src: "src/assets/ubisoft.avif",
-    content: <DummyContent />,
+    content: <Ubisoft />,
   },
   {
     category: "Projects",
     title: "Travlr",
     src: "src/assets/travlr.jpg",
-    content: <DummyContent />,
+    content: <Travlr />,
   },
 
   {
     category: "Projects",
     title: "Vpost",
     src: "src/assets/vpost.jpg",
-    content: <DummyContent />,
+    content: <Vpost/>,
   },
   {
     category: "Projects",
     title: "Flash Notes",
     src: "src/assets/fnotes.jpg",
-    content: <DummyContent />,
+    content: <FlashNotes/>,
   },
   {
     category: "Research",
     title: "Drone Pathing ML",
     src: "src/assets/dpathing.avif",
-    content: <DummyContent />,
+    content: <Namuduri />,
   },
   {
     category: "Research",
     title: "VEGS",
     src: "src/assets/nml.png",
-    content: <DummyContent />,
+    content: <VEGS />,
   },
 ];
 
